@@ -2,7 +2,7 @@
 <?php
     include 'head.php';
 ?>
-<body>
+<body style="background: #FEFFEC;">
 
 <?php
     include 'navbar.php';
