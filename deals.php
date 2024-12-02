@@ -1,4 +1,4 @@
-<div class="border bg-primary text-center mx-5">
+<div class="border text-center mx-5" style="background: FFFDD1;">
     <h4 class="my-3">Deals</h4>
     <div class="d-flex justify-content-center my-2 gap-5">
         <a href="#" class="text-decoration-none text-success-emphasis mx-4 mb-4">
