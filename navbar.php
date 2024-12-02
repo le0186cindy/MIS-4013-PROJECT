@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <!-- Left: Brand and Logo -->
          <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="https://smiski.com/e/wp-content/uploads/2016/03/top_logo.png" alt="logo" width="30" height="30" class="d-line-block align-text-top me-3">
+            <img src="https://smiski.com/e/wp-content/uploads/2016/03/top_logo.png" alt="logo" width="100" height="30" class="d-line-block align-text-top me-3">
         </a>
 
         <!-- TODO: make this collapse for mobile -->
