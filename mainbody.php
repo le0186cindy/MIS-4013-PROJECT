@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center my-4 mx-5">
-    <img src="" alt="logo" width="120rem" height="120rem">
+    <img src="https://smiski.com/e/wp-content/uploads/2016/03/top_logo.png" alt="logo" height="35%">
 </div>
 
 <div class="container text-center">
