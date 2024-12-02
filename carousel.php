@@ -6,13 +6,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="pic1" width="1000" height="600" style="object-fit: cover;">
+        <img src="https://i.pinimg.com/736x/5e/77/5a/5e775a1ee6555d7262174972ab503b20.jpg" class="d-block w-100" alt="pic1" width="1000" height="600" style="object-fit: cover;">
     </div>
     <div class="carousel-item active">
-      <img src="" class="d-block w-100" alt="pic2" width="1000" height="600" style="object-fit: cover;">
+      <img src="https://i.pinimg.com/736x/55/07/72/55077258cf3bb86c63828687af957c40.jpg" class="d-block w-100" alt="pic2" width="1000" height="600" style="object-fit: cover;">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="pic3" width="1000" height="600" style="object-fit: cover;">
+      <img src="https://i.pinimg.com/736x/e7/24/95/e724959c7ef135bf0d931b4e3771a8e6.jpg" class="d-block w-100" alt="pic3" width="1000" height="600" style="object-fit: cover;">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
