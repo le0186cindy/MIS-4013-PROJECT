@@ -6,8 +6,7 @@
         $conn = get_db_connection();
         try {
             $conn = get_db_connection();
-            $stmt = $conn->prepare("SELECT * FROM products");
-            $result = $stmt->execute();
+            $result = mysqli_query($conn, "SELECT * FROM products")
             $conn->close();
             return $result;
         } catch (Exception $e) {
