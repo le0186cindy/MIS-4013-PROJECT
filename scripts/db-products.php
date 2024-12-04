@@ -1,7 +1,6 @@
 <?php
     // ALL FUNCTIONS RELATED TO PRODUCTS
     require("db-info.php");
-    require("util-db.php");
     
     function get_all_products() {
         try {
