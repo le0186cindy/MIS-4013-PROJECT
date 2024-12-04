@@ -8,7 +8,7 @@
     <div>
         <h4>Products</h4>
     </div>
-    <div class="d-flex gap-5">
+    <div class="d-flex flex-wrap gap-5">
         <?php
             foreach ($products as $product) {
         ?>
