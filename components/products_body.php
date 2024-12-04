@@ -1,5 +1,5 @@
 <?php
-    require_once 'db-products.php';
+    require_once 'scripts/db-products.php';
 
     $products = get_all_products();
 ?>
