@@ -3,8 +3,9 @@
     require("db-info.php");
     
     function get_all_products() {
+        $conn = get_db_connection();
         try {
-            global $conn;
+            $conn = get_db_connection();
             $stmt = $conn->prepare("SELECT * FROM products");
             $result = $stmt->execute();
             return $result;
@@ -16,8 +17,9 @@
     }
 
     function add_product($productName, $productDescription, $productPrice, $productImage) {
+        $conn = get_db_connection();
         try {
-            global $conn;
+            $conn = get_db_connection();
             $stmt = $conn->prepare("INSERT INTO products (product_name, product_description, product_price, product_img) VALUES (?, ?, ?, ?)");
             $stmt->bind_param("ssss", $productName, $productDescription, $productPrice, $productImage);
             $stmt->execute();
@@ -31,8 +33,9 @@
     }
 
     function delete_product($productID) {
+        $conn = get_db_connection();
         try {
-            global $conn;
+            $conn = get_db_connection();
             $stmt = $conn->prepare("DELETE FROM products WHERE product_id = ?");
             $stmt->bind_param("s", $productID);
             $stmt->execute();
