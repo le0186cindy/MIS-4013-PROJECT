@@ -3,8 +3,16 @@
     require("util-db.php");
     
     function get_all_products() {
-        $sql = "SELECT * FROM products";
-        return getData($sql);
+        try {
+            global $conn;
+            $stmt = $conn->prepare("SELECT * FROM products");
+            $result = $stmt->execute();
+            return $result;
+        } catch (Exception $e) {
+            $conn->close();
+            throw $e;
+            return false;
+        }
     }
 
     function add_product($productName, $productDescription, $productPrice, $productImage) {
