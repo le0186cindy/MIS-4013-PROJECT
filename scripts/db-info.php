@@ -4,9 +4,14 @@
     $password = 'L00pyle245';
     $dbname = 'cindyleo_project';
 
-    $conn = new mysqli($host, $username, $password, $dbname);
-
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+    function get_db_connection(){
+        // Create connection
+        $conn = new mysqli($host, $username, $password, $dbname);
+        
+        // Check connection
+        if ($conn->connect_error) {
+          return false;
+        }
+        return $conn;
     }
 ?>
