@@ -7,7 +7,6 @@
         try {
             $conn = get_db_connection();
             $result = mysqli_query($conn, "SELECT * FROM products")
-            $conn->close();
             return $result;
         } catch (Exception $e) {
             $conn->close();
