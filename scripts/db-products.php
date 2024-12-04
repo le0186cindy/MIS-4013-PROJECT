@@ -1,6 +1,6 @@
 <?php
     // ALL FUNCTIONS RELATED TO PRODUCTS
-    require_once("util-db.php");
+    require("util-db.php");
     
     function get_all_products() {
         $sql = "SELECT * FROM products";
