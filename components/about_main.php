@@ -5,7 +5,7 @@
     </div>
     <div class="d-flex justify-content-center mt-2 mb-5">
         <video controls autoplay>
-            <source src="../videos/unboxing.mov" type="video/mp4">
+            <source src="https://cdn.discordapp.com/attachments/1239036406949478420/1313734660269936671/v09044g40000coeq36fog65pcihc9agg.mov?ex=6751363f&is=674fe4bf&hm=6c201f89fac0c68ebcf3e6e7ee187be9c9c6cb3567f800d7812b9aac5895218a&" type="video/mp4">
         Your browser does not support the video tag.
         </video>
     </div>
