@@ -9,9 +9,7 @@
 
 <?php
     include 'components/navbar.php';
-    include 'components/mainbody.php';
-    include 'components/carousel.php';
-    include 'components/cards.php';
+    include 'components/about_main.php';
 ?>
 
 </body>
